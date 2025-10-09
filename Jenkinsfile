@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { label 'shruti-label' }
   stages {
     stage('hello') {
       steps {
